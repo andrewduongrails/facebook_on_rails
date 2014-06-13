@@ -29,6 +29,10 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# adding simple form does not work-> note it only works with 3.0.0.rc which changes to 3.0.2 once bundle installed
+gem 'simple_form', '~> 3.0.0.rc'
+
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
